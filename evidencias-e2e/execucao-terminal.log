@@ -1,0 +1,25 @@
+Warning: TTY mode is not supported on Windows platform.
+PHPUnit 11.4.3 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.3.37
+Configuration: ./phpunit.dusk.xml
+
+
+   PASS  Tests\Browser\CadastroDataInvalidaTest
+  ✓ cadastro com data fim anterior ao inicio e rejeitado                                                         6.55s  
+
+   PASS  Tests\Browser\CadastroEConsultaEventoTest
+  ✓ organizador cadastra evento e o encontra na listagem                                                        10.98s  
+
+  Tests:    2 passed (27 assertions)
+  Duration: 18.81s
+
+Time: 00:18.501, Memory: 38.00 MB
+
+Cadastro Data Invalida (Tests\Browser\CadastroDataInvalida)
+ ✔ Cadastro com data fim anterior ao inicio e rejeitado
+
+Cadastro EConsulta Evento (Tests\Browser\CadastroEConsultaEvento)
+ ✔ Organizador cadastra evento e o encontra na listagem
+
+OK (2 tests, 27 assertions)

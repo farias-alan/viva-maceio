@@ -1,0 +1,6 @@
+Cadastro Data Invalida (Tests\Browser\CadastroDataInvalida)
+ [x] Cadastro com data fim anterior ao inicio e rejeitado
+
+Cadastro EConsulta Evento (Tests\Browser\CadastroEConsultaEvento)
+ [x] Organizador cadastra evento e o encontra na listagem
+

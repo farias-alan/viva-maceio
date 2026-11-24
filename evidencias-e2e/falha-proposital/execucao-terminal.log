@@ -1,0 +1,26 @@
+Warning: TTY mode is not supported on Windows platform.
+
+   FAIL  Tests\Browser\FalhaPropositalTest
+  ⨯ falha proposital texto inexistente                                                                           2.64s  
+  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  
+   FAILED  Tests\Browser\FalhaPropositalTest > falha proposital texto inexistente                                       
+  Did not see expected text [Show do Teste que Nao Existe] within element [body].
+Failed asserting that false is true.
+
+  at tests\Browser\FalhaPropositalTest.php:14
+     10▕     public function test_falha_proposital_texto_inexistente(): void
+     11▕     {
+     12▕         $this->browse(function (Browser $browser) {
+     13▕             $browser->visit('/eventos')
+  ➜  14▕                 ->assertSee('Show do Teste que Nao Existe');
+     15▕         });
+     16▕     }
+     17▕ }
+     18▕
+
+  1   tests\Browser\FalhaPropositalTest.php:12
+
+
+  Tests:    1 failed (1 assertions)
+  Duration: 3.42s
+

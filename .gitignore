@@ -23,3 +23,6 @@ yarn-error.log
 /.zed
 composer.lock
 package-lock.json
+
+# Laravel Dusk
+.env.dusk.local
