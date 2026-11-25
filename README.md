@@ -2,6 +2,7 @@
 
 Atividade Prática Avaliativa — Testes End-to-End (Parte 1)
 Disciplina de Qualidade de Software — IFAL / Campus Maceió
+Alunos: Antonio Alan, Adenilson Silva, Ingrid Mônica e Karla Cristina
 
 Testes automatizados no navegador para o **Viva Maceió**, um portal de eventos culturais feito em Laravel e executado **localmente** (descrição original do projeto em [SOBRE-O-PROJETO.md](SOBRE-O-PROJETO.md)). A ferramenta é o **Laravel Dusk**, que controla um Google Chrome de verdade e age como um usuário: abre páginas, preenche formulários, clica e confere o que aparece na tela.
 
