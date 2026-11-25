@@ -3,9 +3,9 @@
 Atividade Prática Avaliativa — Testes End-to-End (Parte 1)
 Disciplina de Qualidade de Software — IFAL / Campus Maceió
 
-Como instalar e executar: veja o [E2E-README.md](E2E-README.md).
+Como instalar e executar: veja o [README.md](README.md).
 
-**Sistema-alvo:** [Viva Maceió](README.md), portal de eventos culturais de Maceió (aplicação própria, Laravel 11 + Blade), executado **localmente**.
+**Sistema-alvo:** [Viva Maceió](SOBRE-O-PROJETO.md), portal de eventos culturais de Maceió (aplicação própria, Laravel 11 + Blade), executado **localmente**.
 **Ferramenta:** Laravel Dusk 8.7.2 (automação do Google Chrome via ChromeDriver).
 
 ---
